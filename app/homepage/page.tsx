@@ -1,5 +1,11 @@
+'use client'
 
-export const HomePage = ()=>{
+import Header from "@/app/homepage/components/header";
+ export const Page = ()=>{
 
-    return <>Welcome to next!</>
+    return <div>
+        <Header/>
+    </div>
 }
+
+export default Page
