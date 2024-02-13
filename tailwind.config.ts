@@ -23,6 +23,11 @@ const config = {
     },
     extend: {
       colors: {
+        // baseColor:"#0468B1",
+        // blue: "#2c7ebe",
+        // yellow: "#fec131",
+        // cyan: "#6ac9d1",
+        // orange: "#f06930",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

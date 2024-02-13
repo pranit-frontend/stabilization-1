@@ -10,9 +10,6 @@ import {
 } from "@/components/ui/navigation-menu"
 
 
-  
-  
-
 const Header = ()=>{
 
     return <div>
