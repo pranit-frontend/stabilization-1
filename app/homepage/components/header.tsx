@@ -8,13 +8,15 @@ import {
     NavigationMenuTrigger,
     NavigationMenuViewport,
 } from "@/components/ui/navigation-menu"
+
+
+  
   
 
 const Header = ()=>{
 
     return <div>
         
-
 		<header className="relative z-[111]">
 		  <div className="bg-[#0468B1] pt-[10px]">
 			<div className="container">
@@ -81,18 +83,18 @@ const Header = ()=>{
 							<NavigationMenuItem>
 								<NavigationMenuTrigger>Introduction</NavigationMenuTrigger>
 								<NavigationMenuContent>
-								<NavigationMenuLink>Origin</NavigationMenuLink>
-								<NavigationMenuLink>Approach</NavigationMenuLink>
-								<NavigationMenuLink>Partners / Beneficiaries / Human Rights</NavigationMenuLink>
-								<NavigationMenuLink>National / Local Authority</NavigationMenuLink>
-								<NavigationMenuLink>Focus on State and People</NavigationMenuLink>
+								<NavigationMenuLink className="pt-3 w-48 inline-block">Origin</NavigationMenuLink>
+								<NavigationMenuLink className="pt-3 w-48 inline-block">Approach</NavigationMenuLink>
+								<NavigationMenuLink className="pt-3 w-48 inline-block">Partners / Beneficiaries / Human Rights</NavigationMenuLink>
+								<NavigationMenuLink className="pt-3 w-48 inline-block">National / Local Authority</NavigationMenuLink>
+								<NavigationMenuLink className="pt-3 w-48 inline-block">Focus on State and People</NavigationMenuLink>
 								</NavigationMenuContent>
 							</NavigationMenuItem>
 							<NavigationMenuItem>
 								<NavigationMenuTrigger>Analysis of Approach</NavigationMenuTrigger>
 								<NavigationMenuContent>
-								<NavigationMenuLink>Assessment of Authority / Security / Other Factors</NavigationMenuLink>
-								<NavigationMenuLink>Decision on Engagement</NavigationMenuLink>
+								<NavigationMenuLink className="pt-3 w-48 inline-block">Assessment of Authority / Security / Other Factors</NavigationMenuLink>
+								<NavigationMenuLink className="pt-3 w-48 inline-block">Decision on Engagement</NavigationMenuLink>
 								</NavigationMenuContent>
 							</NavigationMenuItem>
 							</NavigationMenuList>
