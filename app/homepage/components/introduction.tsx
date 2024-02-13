@@ -3,10 +3,10 @@
 export const Introduction = ()=>{
 
     return <div className="bg-secondary">
-        <div className="container">
+        <div className="container mx-auto grid items-center relative">
             <div className="pt-20 pb-20 flex flex-wrap">
-                <div className="grid w-full gap-5 md:grid-cols-2">
-                    <div className="w-3/4 p-6">
+                <div className="grid w-full md:grid-cols-2">
+                    <div className="w-full p-6">
                         <div className="mb-[20px]">
 							 <h2 className="text-[#282e3f] text-[50px] font-bold">About Us</h2>
 							 <p className="text-[#666] text-[15px] leading-[28px] mb-[30px]">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at ,</p>
@@ -18,7 +18,7 @@ export const Introduction = ()=>{
 							 </div>
 						 </div>
                     </div>
-                    <div className="w-1/4 p-6">
+                    <div className="w-full p-6">
                         <div className="relative mb-[20px] flex items-center justify-end">
 							<div className=" relative max-w-[520px] before:absolute before:bg-[#0468B1] before:w-full before:h-full before:content-[''] before:-z-10 before:left-[-20px] before:top-[-20px] ">
 							   <img className="w-full" src="assets/images/about.jpg" />
