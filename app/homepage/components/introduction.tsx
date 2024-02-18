@@ -6,7 +6,27 @@ export const Introduction = ()=>{
         <div className="container mx-auto grid items-center relative">
             <div className="pt-20 pb-20 flex flex-wrap">
                 <div className="grid w-full md:grid-cols-2">
-                    <div className="w-full p-6">
+                    <div className="w-full p-6 xl:order-3 lg:order-3 md:order-3">
+                        <div className="relative mb-[20px] flex items-center justify-end">
+							<div className=" relative max-w-[520px] before:absolute before:bg-[#0468B1] before:w-full before:h-full before:content-[''] before:-z-10 before:left-[-20px] before:top-[-20px] ">
+							   <img className="w-full" src="assets/images/about.jpg" />
+							   
+							   <div className="absolute left-0 top-0 w-full h-full transition-all ease-in-out flex justify-center flex-col text-center z-[99]">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.youtube.com/embed/uQBL7pSAXR8?autoplay=1" className="video-btn flex justify-center" data-type="iframe">
+                                                {/* <i className="border border-white p-[20px] rounded-full text-white"></i> */}
+                                                <span className="w-12 h-12 text-white rounded-full ring-4 ring-white grid place-items-center transition">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-play"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+							</div>
+						</div>
+                    </div>
+                    <div className="w-full p-6 xl:order-2 lg:order-2 md:order-3">
                         <div className="mb-[20px]">
 							 <h2 className="text-[#282e3f] text-[50px] font-bold">About Us</h2>
 							 <p className="text-[#666] text-[15px] leading-[28px] mb-[30px]">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at ,</p>
@@ -17,25 +37,6 @@ export const Introduction = ()=>{
 								 ">More About Us..</a>
 							 </div>
 						 </div>
-                    </div>
-                    <div className="w-full p-6">
-                        <div className="relative mb-[20px] flex items-center justify-end">
-							<div className=" relative max-w-[520px] before:absolute before:bg-[#0468B1] before:w-full before:h-full before:content-[''] before:-z-10 before:left-[-20px] before:top-[-20px] ">
-							   <img className="w-full" src="assets/images/about.jpg" />
-							   
-							   <div className="absolute left-0 top-0 w-full h-full transition-all ease-in-out flex justify-center flex-col text-center z-[99]">
-								
-                                    <ul>
-                                        <li>
-                                            <a href="https://www.youtube.com/embed/uQBL7pSAXR8?autoplay=1" className="video-btn" data-type="iframe">
-                                                {/* <i className="fa fa-play border border-white p-[20px] rounded-full text-white"></i> */}
-                                                
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-							</div>
-						</div>
                     </div>
                 </div>
             </div>  
