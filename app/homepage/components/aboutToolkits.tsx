@@ -3,7 +3,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 export const AboutToolkits = ()=>{
 
     return <div>
-        <div className="container">
+        <div className="container mx-auto grid items-center relative">
             
             <div className="fancy-feature-toolkit pt-20 pb-20">
                 <div className="col-span-12 text-center">

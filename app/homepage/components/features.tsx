@@ -16,7 +16,7 @@ import {
 export const Features = ()=>{
 
     return <div> 
-        <div className="container">
+        <div className="container mx-auto grid items-center relative">
             <div className="pt-20 pb-20 flex flex-wrap">
                 
                 <Dialog>

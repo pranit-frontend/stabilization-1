@@ -36,7 +36,7 @@ export const Introduction = ()=>{
 								 col:mb-[5px] col:mt-[15px] col:text-[15px] col:px-[18px] col:py-[8px] 
 								 ">More About Us..</a>
 							 </div>
-						 </div>
+						</div>
                     </div>
                 </div>
             </div>  
