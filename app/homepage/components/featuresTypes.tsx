@@ -1,53 +1,52 @@
 'use client'
-import ItemOne from "@/app/homepage/components/itemOne";
+import SectionOne from "@/app/homepage/components/sectionOne";
+import SectionTwo from "@/app/homepage/components/sectionTwo";
+import SectionThree from "@/app/homepage/components/sectionTwo";
+import SectionFour from "@/app/homepage/components/sectionTwo";
 export const FeaturesTypes = ()=>{
 
     return <div className="bg-secondary">
         <div className="container">
             <div className="pt-20 pb-20 flex flex-wrap">
                 <div className="grid w-full md:grid-cols-2 gap-6"> 
-                    <div className="w-full block rounded-lg bg-white bg-cover p-6 shadow-lg dark:bg-neutral-700" style={{ backgroundImage: "url('assets/images/background/01.jpg')" }}>
+                    <div className="relative w-full block rounded-lg bg-white bg-cover p-6 shadow-lg dark:bg-neutral-700" style={{ backgroundImage: "url('assets/images/background/01.jpg')" }}>
                         <div className="mb-6 flex items-center justify-between">
                             <img src="assets/images/icons/icon-ch-1.gif"/>
-                            <h5 className="text-xl font-medium leading-tight text-neutral-800 text-white dark:text-neutral-50">
-                                LAYING THE FOUNDATIONS
+                            <h5 className="absolute top-0 right-0 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50 bg-primaryColor p-[15px_30px] text-white">
+                                Evaluation / Analysis <br/>of Approach
                             </h5>
                         </div>
                         
-                        <ItemOne/>
+                        <SectionOne/>
                     </div>
-                    <div className="w-full block rounded-lg bg-white bg-cover p-6 shadow-lg dark:bg-neutral-700" style={{ backgroundImage: "url('assets/images/background/02.jpg')" }}>
-                        <h5 className="mb-6 text-xl font-medium leading-tight text-neutral-800 text-white dark:text-neutral-50">
-                            LAYING THE FOUNDATIONS
-                        </h5>
-                        <div className="relative rounded-xl bg-white px-9 pb-14 pt-10" >
-                            <div className="space-y-4 text-neutral-800">
-                                <h3 className="font-bold text-2xl">Title</h3>
-                                <div className="paragraph-l ">Subtitle Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est perferendis doloremque expedita accusamus unde ab corrupti dicta eveniet ipsum possimus.</div>
-                            </div>
+                    <div className="relative w-full block rounded-lg bg-white bg-cover p-6 shadow-lg dark:bg-neutral-700" style={{ backgroundImage: "url('assets/images/background/02.jpg')" }}>
+                        <div className="mb-6 flex items-center justify-between">
+                            <img src="assets/images/icons/icon-ch-2.gif"/>
+                            <h5 className="absolute top-0 right-0 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50 bg-yellow p-[15px_30px] text-white">
+                                Preparation of <br/>Country Officers
+                            </h5>
                         </div>
+                        
+                        
+                        <SectionTwo/>
                     </div>
-                    <div className="w-full block rounded-lg bg-white bg-cover p-6 shadow-lg dark:bg-neutral-700" style={{ backgroundImage: "url('assets/images/background/03.jpg')" }}>
-                        <h5 className="mb-6 text-xl font-medium leading-tight text-neutral-800 text-white dark:text-neutral-50">
-                            LAYING THE FOUNDATIONS
-                        </h5>
-                        <div className="relative rounded-xl bg-white px-9 pb-14 pt-10" >
-                            <div className="space-y-4 text-neutral-800">
-                                <h3 className="font-bold text-2xl">Title</h3>
-                                <div className="paragraph-l ">Subtitle Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est perferendis doloremque expedita accusamus unde ab corrupti dicta eveniet ipsum possimus.</div>
-                            </div>
+                    <div className="relative w-full block rounded-lg bg-white bg-cover p-6 shadow-lg dark:bg-neutral-700" style={{ backgroundImage: "url('assets/images/background/03.jpg')" }}>
+                        <div className="mb-6 flex items-center justify-between">
+                            <img src="assets/images/icons/icon-ch-3.gif"/>
+                            <h5 className="absolute top-0 right-0 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50 bg-cyan p-[15px_30px] p-3 text-white">
+                                Programs
+                            </h5>
                         </div>
+                        <SectionThree/>
                     </div>
-                    <div className="w-full block rounded-lg bg-white bg-cover p-6 shadow-lg dark:bg-neutral-700" style={{ backgroundImage: "url('assets/images/background/04.jpg')" }}>
-                        <h5 className="mb-6 text-xl font-medium leading-tight text-neutral-800 text-white dark:text-neutral-50">
-                            LAYING THE FOUNDATIONS
-                        </h5>
-                        <div className="relative rounded-xl bg-white px-9 pb-14 pt-10" >
-                            <div className="space-y-4 text-neutral-800">
-                                <h3 className="font-bold text-2xl">Title</h3>
-                                <div className="paragraph-l ">Subtitle Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est perferendis doloremque expedita accusamus unde ab corrupti dicta eveniet ipsum possimus.</div>
-                            </div>
+                    <div className="relative w-full block rounded-lg bg-white bg-cover p-6 shadow-lg dark:bg-neutral-700" style={{ backgroundImage: "url('assets/images/background/04.jpg')" }}>
+                        <div className="mb-6 flex items-center justify-between">
+                            <img src="assets/images/icons/icon-ch-4_3.gif"/>
+                            <h5 className="absolute top-0 right-0 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50 bg-orange p-[15px_30px] p-3 text-white">
+                                Management
+                            </h5>
                         </div>
+                        <SectionFour/>
                     </div>
                 </div>
             </div>

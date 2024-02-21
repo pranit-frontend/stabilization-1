@@ -24,10 +24,11 @@ const config = {
     extend: {
       colors: {
         baseColor:"#0468B1",
+        primaryColor: "#5394c9",
         blue: "#2c7ebe",
         yellow: "#fec131",
         cyan: "#6ac9d1",
-        orange: "#f06930",
+        orange: "#f38453",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
